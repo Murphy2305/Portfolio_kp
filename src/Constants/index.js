@@ -57,11 +57,11 @@ export const clientReviews = [
 ];
 export const myProjects = [
   {
-    title: 'PencilIo - Collaborative Docs & Diagrams',
-    desc: 'Pencil.io is a collaborative platform designed for engineering teams to create and edit documents and diagrams in real time, enhancing workflow efficiency and collaboration.',
-    subdesc:
-      'Built using Next.js, React.js, ConvexDB, ContextAPI, and TypeScript, Pencil.io ensures seamless data synchronization and a smooth user experience. Features include Editor.js for rich text editing and Excalidraw for interactive diagramming.',
-    href: 'https://github.com/Murphy2305/Pencil-io',
+   title: 'PencilIo - Docs & Diagrams',
+desc: 'Pencil.io is a platform designed for engineering teams to create and edit documents and diagrams, enhancing workflow efficiency.',
+subdesc: 'Built using Next.js, React.js, ConvexDB, ContextAPI, and TypeScript, Pencil.io ensures seamless data synchronization and a smooth user experience. Features include Editor.js for rich text editing and Excalidraw for interactive diagramming.',
+href: 'https://github.com/Murphy2305/Pencil-io',
+
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project1-logo.png',
     logoStyle: {
