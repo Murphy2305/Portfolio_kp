@@ -264,7 +264,7 @@ export const workExperiences = [
     pos: 'Front-End Developer Intern ',
     duration: 'Jul 2024 – Sep 2024',
     title: "Built and optimized a blog module with ReactJS and WordPress APIs. Added pagination, detailed post views, and UI components. Ensured smooth performance and responsiveness.",
-    icon: '/assets/Zonbase.svg',
+    icon: '/assets/Zonbase.png',
     animation: 'Waving',
   },
   {
@@ -273,7 +273,7 @@ export const workExperiences = [
     pos: 'Educator',
     duration: 'Nov 2023 – Apr 2024',
     title: "Mentored students in frontend development through daily sessions. Conducted live sessions, exercises, and personalized support. Guided projects to enhance problem-solving skills.",
-    icon: '/assets/sfs.svg',
+    icon: '/assets/sfs.png',
     animation: 'Waving',
   },
  
