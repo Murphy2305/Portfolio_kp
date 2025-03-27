@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import CanvasLoader from '../Components/CanvasLoader';
 import { PerspectiveCamera } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
-import { calculateSizes } from '../constants';
+import { calculateSizes } from '../Constants/index';
 import HackerRoom from '../Components/HackerRoom';
 import HeroCamera from '../Components/HeroCamera'
 import { Leva } from 'leva';

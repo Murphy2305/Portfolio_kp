@@ -5,7 +5,7 @@ import { Center } from '@react-three/drei'
 import { Suspense } from 'react'
 import CanvasLoader from '../Components/CanvasLoader'
 import { OrbitControls } from '@react-three/drei'
-import { myProjects } from '../constants/index.js';
+import { myProjects } from '../Constants/index.js';
 import { useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
