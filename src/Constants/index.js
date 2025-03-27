@@ -63,7 +63,7 @@ export const myProjects = [
       'Built using Next.js, React.js, ConvexDB, ContextAPI, and TypeScript, Pencil.io ensures seamless data synchronization and a smooth user experience. Features include Editor.js for rich text editing and Excalidraw for interactive diagramming.',
     href: 'https://github.com/Murphy2305/Pencil-io',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/project1-logo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -100,7 +100,7 @@ export const myProjects = [
       'Developed using React.js, Node.js, Express.js, and Socket.IO for real-time interactions. Features include JWT authentication, a clean UI with ChakraUI, and optimized backend performance for handling concurrent users.',
     href: 'https://github.com/Murphy2305/Durbhash',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/project2-logo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -137,7 +137,7 @@ export const myProjects = [
       'Built with React.js, Node.js, Express.js, and MongoDB, Ghar ensures a seamless booking experience. Integrated Redux for state management and JWT for authentication, enhancing both security and performance.',
     href: 'https://github.com/Murphy2305/Ghar',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/project3-logo.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
