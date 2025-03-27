@@ -65,11 +65,12 @@ export const myProjects = [
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project1-logo.png',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
+  backgroundColor: '#0A1622', // Darker background
+  border: '0.2px solid #0F1C2D', // Slightly darker border
+  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
+}
+,
+    spotlight: '/assets/spotlight2.png',
     tags: [
       {
         id: 1,
@@ -102,10 +103,11 @@ export const myProjects = [
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project2-logo.png',
     logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
+  backgroundColor: '#0A1622', // Darker background
+  border: '0.2px solid #0F1C2D', // Slightly darker border
+  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
+},
+
     spotlight: '/assets/spotlight2.png',
     tags: [
       {
@@ -139,12 +141,11 @@ export const myProjects = [
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project3-logo.png',
     logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
+  backgroundColor: '#0A1622', // Darker background
+  border: '0.2px solid #0F1C2D', // Slightly darker border
+  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
+}
+,
     spotlight: '/assets/spotlight3.png',
     tags: [
       {
