@@ -68,7 +68,7 @@ export const myProjects = [
     desc: 'Chalchitra is a real-time video calling application that enables seamless peer-to-peer communication using WebRTC.',
     subdesc: 'Built with Next.js, Socket.IO, and WebRTC, utilizing Simple-Peer for peer-to-peer connections. Integrated WebRTC ICE servers for efficient NAT traversal, ensuring stable and reliable connections across networks.',
     href: 'https://github.com/Murphy2305/VideoChatApp',
-    texture: '/textures/project/project4.mp4',
+    texture: '/textures/project/project3.mp4',
     logo: '/assets/project4-logo.png',
     logoStyle: {
       backgroundColor: '#0A1622',
