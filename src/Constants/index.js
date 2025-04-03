@@ -21,156 +21,90 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
+
 export const myProjects = [
   {
-   title: 'PencilIo - Docs & Diagrams',
-desc: 'Pencil.io is a platform designed for engineering teams to create and edit documents and diagrams, enhancing workflow efficiency.',
-subdesc: 'Built using Next.js, React.js, ConvexDB, ContextAPI, and TypeScript, Pencil.io ensures seamless data synchronization and a smooth user experience. Features include Editor.js for rich text editing and Excalidraw for interactive diagramming.',
-href: 'https://github.com/Murphy2305/Pencil-io',
-
+    title: 'PencilIo - Docs & Diagrams',
+    desc: 'Pencil.io is a platform designed for engineering teams to create and edit documents and diagrams, enhancing workflow efficiency.',
+    subdesc: 'Built using Next.js, React.js, ConvexDB, ContextAPI, and TypeScript, Pencil.io ensures seamless data synchronization and a smooth user experience. Features include Editor.js for rich text editing and Excalidraw for interactive diagramming.',
+    href: 'https://github.com/Murphy2305/Pencil-io',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project1-logo.png',
     logoStyle: {
-  backgroundColor: '#0A1622', // Darker background
-  border: '0.2px solid #0F1C2D', // Slightly darker border
-  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
-}
-,
+      backgroundColor: '#0A1622',
+      border: '0.2px solid #0F1C2D',
+      boxShadow: '0px 0px 50px 0px #1A4A89A0',
+    },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Nextjs',
-        path: '/assets/next.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'ConvexDB',
-        path: '/assets/convexd.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'Nextjs', path: '/assets/next.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'ConvexDB', path: '/assets/convexd.png' },
     ],
   },
   {
     title: 'Durbhash - Real-Time Chat App',
     desc: 'Durbhash is a fully deployed, real-time chat application that supports private messaging, group chats, and member management, ensuring secure and efficient communication.',
-    subdesc:
-      'Developed using React.js, Node.js, Express.js, and Socket.IO for real-time interactions. Features include JWT authentication, a clean UI with ChakraUI, and optimized backend performance for handling concurrent users.',
+    subdesc: 'Developed using React.js, Node.js, Express.js, and Socket.IO for real-time interactions. Features include JWT authentication, a clean UI with ChakraUI, and optimized backend performance for handling concurrent users.',
     href: 'https://github.com/Murphy2305/Durbhash',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project2-logo.png',
     logoStyle: {
-  backgroundColor: '#0A1622', // Darker background
-  border: '0.2px solid #0F1C2D', // Slightly darker border
-  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
-},
-
+      backgroundColor: '#0A1622',
+      border: '0.2px solid #0F1C2D',
+      boxShadow: '0px 0px 50px 0px #1A4A89A0',
+    },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/nodejs.png',
-      },
-      {
-        id: 3,
-        name: 'Socket.IO',
-        path: '/assets/socketio.png',
-      },
-      {
-        id: 4,
-        name: 'MongoDB',
-        path: '/assets/mongodb.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'Node.js', path: '/assets/nodejs.png' },
+      { id: 3, name: 'Socket.IO', path: '/assets/socketio.png' },
+      { id: 4, name: 'MongoDB', path: '/assets/mongodb.png' },
+    ],
+  },
+  {
+    title: 'Chalchitra - Video Calling App',
+    desc: 'Chalchitra is a real-time video calling application that enables seamless peer-to-peer communication using WebRTC.',
+    subdesc: 'Built with Next.js, Socket.IO, and WebRTC, utilizing Simple-Peer for peer-to-peer connections. Integrated WebRTC ICE servers for efficient NAT traversal, ensuring stable and reliable connections across networks.',
+    href: 'https://github.com/Murphy2305/VideoChatApp',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/project4-logo.png',
+    logoStyle: {
+      backgroundColor: '#0A1622',
+      border: '0.2px solid #0F1C2D',
+      boxShadow: '0px 0px 50px 0px #1A4A89A0',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      { id: 1, name: 'WebRTC', path: '/assets/webrtc.png' },
+      { id: 2, name: 'Next.js', path: '/assets/next.png' },
+      { id: 3, name: 'Socket.IO', path: '/assets/socketio.png' },
+      { id: 4, name: 'TypeScript', path: '/assets/typescript.png' },
     ],
   },
   {
     title: 'Ghar - Home Rental Platform',
     desc: 'Ghar is a responsive MERN stack platform for home rentals, allowing users to search for properties, make customized bookings, and wishlist properties for future reference.',
-    subdesc:
-      'Built with React.js, Node.js, Express.js, and MongoDB, Ghar ensures a seamless booking experience. Integrated Redux for state management and JWT for authentication, enhancing both security and performance.',
+    subdesc: 'Built with React.js, Node.js, Express.js, and MongoDB, Ghar ensures a seamless booking experience. Integrated Redux for state management and JWT for authentication, enhancing both security and performance.',
     href: 'https://github.com/Murphy2305/Ghar',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project3-logo.png',
     logoStyle: {
-  backgroundColor: '#0A1622', // Darker background
-  border: '0.2px solid #0F1C2D', // Slightly darker border
-  boxShadow: '0px 0px 50px 0px #1A4A89A0', // Softer, darker glow
-}
-,
+      backgroundColor: '#0A1622',
+      border: '0.2px solid #0F1C2D',
+      boxShadow: '0px 0px 50px 0px #1A4A89A0',
+    },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/nodejs.png',
-      },
-      {
-        id: 3,
-        name: 'Redux',
-        path: '/assets/redux.png',
-      },
-      {
-        id: 4,
-        name: 'MongoDB',
-        path: '/assets/mongodb.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'Node.js', path: '/assets/nodejs.png' },
+      { id: 3, name: 'Redux', path: '/assets/redux.png' },
+      { id: 4, name: 'MongoDB', path: '/assets/mongodb.png' },
     ],
   },
 ];
+
 
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
